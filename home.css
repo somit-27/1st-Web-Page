@@ -1,0 +1,28 @@
+.first{
+    margin: auto;
+}
+.navi{
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    background-color: rgba(26,26,26,255);
+    margin-right:20%;
+    margin-left: 20%;
+}
+.but{
+    padding: 0px 20px;
+    display: inline-block;
+}
+#hi{
+    display: inline-block;
+    padding: 0%;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    margin-right: 10px;
+}
+.cont{
+    display: block;
+    font-size: 1.25em;
+    color: rgba(36,167,242,255);
+    float: right;
+}
