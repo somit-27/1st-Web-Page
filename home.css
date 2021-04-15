@@ -1,5 +1,14 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
 .first{
     margin: auto;
+    justify-content: space-between;
+    background-image: url(./Travel.jpg);
+    background-size: cover;
+    height: 100vh;
+    
 }
 .navi{
     border-radius: 10px;
@@ -7,22 +16,43 @@
     background-color: rgba(26,26,26,255);
     margin-right:20%;
     margin-left: 20%;
+    display: flex;
 }
 .but{
     padding: 0px 20px;
     display: inline-block;
+    justify-content: space-between;
 }
 #hi{
     display: inline-block;
     padding: 0%;
     height: 50px;
     width: 50px;
-    margin: 10px;
-    margin-right: 10px;
+    margin: 1px;
 }
 .cont{
-    display: block;
     font-size: 1.25em;
     color: rgba(36,167,242,255);
-    float: right;
+    margin: auto;
+    text-decoration: none;
+}
+a:-webkit-any-link{
+    text-decoration: none;
+    color: rgba(36, 167, 242, 255);
+}
+.cont :hover{
+    color: rgba(36,167,242,0.5);
+    cursor: pointer;
+}
+#trav{
+    width: 1280px;
+    height: 587px;
+}
+#tagline{
+    color: rgba(26,26,26,255);
+    position: fixed;
+    font-weight: bold;
+    top: 20%;
+    left: 30%;
+    font-size: 3em;
 }
