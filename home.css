@@ -59,7 +59,7 @@ h1{
     margin:0% 0% 0% 40%;
 }
 h4{
-    color: rgba(26, 26, 26, 255);
+    color: rgba(36, 167, 242, 255);
 }
 table{
     color: rgb(204, 0, 153);
@@ -72,6 +72,7 @@ ul{
 .dphoto{
     height: 10em;
     width: 20em;
+    color: rgba(26,26,26,255);
 }
 #contact{
     display: block;
